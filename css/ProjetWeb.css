@@ -254,8 +254,6 @@ span {
     font-family: 'Roboto', sans-serif;
 }
 
-
-
 /* contact__us */
 .contact__us {
     background-color: #EFEFEF;
@@ -390,11 +388,22 @@ footer {
     .banner__btn__conctat_us {
         display: none;
     }
-
+    .your__services__title h1::before {
+        content: "";
+        position: absolute;
+        border: 0.5rem solid #18ab63;
+        border-radius: 20px 20px;
+        width: 12%;
+        top: 88%;
+    }
     .grid-columns-3 {
         grid-template-columns: 100%;
     }
     .grid-columns-2 {
         grid-template-columns: 100%;
+    }
+    .localisation iframe {
+        width: 450px;
+        height: 420px;
     }
 }
