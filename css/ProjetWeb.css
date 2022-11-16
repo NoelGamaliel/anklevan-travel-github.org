@@ -398,6 +398,10 @@ footer {
     .banner__btn__conctat_us {
         display: none;
     }
+    .your__teams__content img {
+        width:50%;
+        height:220px
+    }
     .your__services__title h1::before {
         content: "";
         position: absolute;
