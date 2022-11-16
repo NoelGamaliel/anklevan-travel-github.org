@@ -92,7 +92,7 @@
     display: flex;
     height: 75vh;
     background: linear-gradient(30deg, var(--primary), var(--secondary)),
-                url(img/travel.jpg) center center / cover;
+                url(/img/travel.jpg) center center / cover;
 }
 .banner__content h1{
     margin-bottom: 50px;
