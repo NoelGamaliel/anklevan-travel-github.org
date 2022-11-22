@@ -163,7 +163,9 @@
 /* .your__services__items hover */
 .your__services__items:hover {
     border-radius: 3% 3%;
-    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1),0 2px 4px -1px rgba(0,0,0,0.06);
+    border-radius: 18px;
+    box-shadow:  27px 27px 35px #c7c7c7,
+                 -27px -27px 35px #f9f9f9;
     transform:rotate(3deg);
     transition: 1s ease-in;
 }
