@@ -147,16 +147,19 @@
 /* Your Services */
 .grid-columns-3 {
     grid-template-columns: 33.3% 33.3% 33.3%;
-    grid-gap: 10px;
+    grid-gap: 15px;
 }
 .your__services {
     margin-bottom: 100px;
 }
+.your__services__items h1 {
+    color: #000;
+}
 .your__services__items {
     border: 1px #000;
-    border-radius: 3% 3%;
-    box-shadow: 0px 9px 50px -9px rgba(0,0,0,0.1);
-    margin-bottom: 0px;
+    border-radius: 20px;
+    box-shadow: 6px 6px 12px #dedede,
+    -6px -6px 12px #ffffff;
     height: 320px;
     z-index: auto;
 }
@@ -164,8 +167,7 @@
 .your__services__items:hover {
     border-radius: 3% 3%;
     border-radius: 18px;
-    box-shadow:  27px 27px 35px #c7c7c7,
-                 -27px -27px 35px #f9f9f9;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 1px 5px 0 rgb(0 0 0 / 12%), 0 3px 1px -2px rgb(0 0 0 / 20%);
     transform:rotate(3deg);
     transition: 1s ease-in;
 }
@@ -237,6 +239,8 @@ hr {
 }
 .your__teams__content img {
     border-radius: 50%;
+    height: 220px;
+    width: 230px;
 }
 .your__teams__content h3 {
     margin-top: 20px;
