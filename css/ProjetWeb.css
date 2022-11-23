@@ -92,7 +92,7 @@
     display: flex;
     height: 75vh;
     background: linear-gradient(30deg, var(--primary), var(--secondary)),
-                url(/img/travel.jpg) center center / cover;
+                url(../img/travel.jpg) center center / cover;
 }
 .banner__content h1{
     margin-bottom: 50px;
@@ -329,9 +329,13 @@ button:hover {
 footer {
     background-color: #000;
     color: #18ab63;
-    padding: 35px;
+    padding: 45px;
     font-size: 1.2rem;
     font-family: 'Roboto', sans-serif;
+}
+.copy-right {
+    margin-bottom: 10px;
+    margin-top: 15px;
 }
 .mediasociaux {
     color: #EFEFEF;
